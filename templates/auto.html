@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+            background-color: blueviolet;
+            padding: 7px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <!-- <h1>This is generic url navigation</h1>
+        <a href="{% url 'biriyani' %}">Click here</a> -->
+
+        <h1>This is specific url navigation</h1>
+        <a href="{% url 'zomato:biriyani' %}">Click here</a>
+    </center>
+</body>
+</html>
